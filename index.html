@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你的名字 - 個人行銷網頁</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">[你的名字]</h1>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero">首頁</a></li>
+                    <li><a href="#about">關於我</a></li>
+                    <li><a href="#portfolio">我的作品</a></li>
+                    <li><a href="#records">我的紀錄</a></li>
+                    <li><a href="#contact">聯絡我</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="https://via.placeholder.com/200" alt="你的個人照片" class="hero-image">
+                    <h2>打造未來，創新無限 — [你的名字] 的數位旅程</h2>
+                    <p>一位全方位的網頁工程師 | 策略顧問 | 創新者，致力於將創意轉化為現實。</p>
+                    <a href="#portfolio" class="btn primary-btn">查看我的作品</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2>關於 [你的名字]</h2>
+                <p>嗨！我是 [你的名字]，一位熱衷於前端與後端開發的網頁工程師，擁有 X 年的豐富經驗。我深信技術的力量在於解決問題並創造價值。從概念發想到實際部署，我樂於參與產品的每一個環節，致力於打造高效能、用戶友善且美觀的數位解決方案。除了編寫程式碼，我也扮演著策略顧問的角色，協助企業優化數位策略，並樂於分享知識與引導團隊成長。我相信透過不斷學習與創新，能為每一個專案帶來突破性的進展。期待能與您共同探索更多可能性！</p>
+                
+                <h3>我的核心技能</h3>
+                <ul class="skills-list">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js / Vue.js</li>
+                    <li>Node.js / Python</li>
+                    <li>Database Management (SQL/NoSQL)</li>
+                    <li>Cloud Platforms (AWS/Azure)</li>
+                    <li>UI/UX Design Principles</li>
+                    <li>Project Management</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section section-padding bg-light-blue">
+            <div class="container">
+                <h2>我的多重身份與專長</h2>
+                <div class="roles-grid">
+                    <div class="role-card">
+                        <h3>網頁工程師</h3>
+                        <p>專精於前端與後端開發，打造穩定且高效能的網頁應用程式。</p>
+                        <div class="project-list">
+                            <div class="project-item">
+                                <img src="https://via.placeholder.com/300x200" alt="專案 A">
+                                <h4>[專案名稱 A] - 企業級電商平台</h4>
+                                <p>利用 React.js 與 Node.js 開發，實現高效能商品展示與訂單處理系統。</p>
+                                <a href="#" class="btn secondary-btn">查看詳情</a>
+                            </div>
+                            <div class="project-item">
+                                <img src="https://via.placeholder.com/300x200" alt="專案 B">
+                                <h4>[專案名稱 B] - 智慧城市數據儀表板</h4>
+                                <p>整合多源數據，提供即時城市狀態監控與視覺化報告。</p>
+                                <a href="#" class="btn secondary-btn">查看詳情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="role-card">
+                        <h3>策略顧問</h3>
+                        <p>協助企業規劃數位轉型策略，優化營運流程與提升市場競爭力。</p>
+                        <ul class="service-list">
+                            <li>數位產品諮詢</li>
+                            <li>技術選型建議</li>
+                            <li>市場分析與競爭策略</li>
+                        </ul>
+                    </div>
+                    <div class="role-card">
+                        <h3>技術講師/分享者</h3>
+                        <p>樂於分享程式知識與行業經驗，曾於多個平台舉辦講座。</p>
+                        <ul class="sharing-list">
+                            <li>[講座主題 A] - 程式學習曲線優化 (附連結)</li>
+                            <li>[講座主題 B] - 前端性能優化實戰 (附連結)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="records" class="records-section section-padding">
+            <div class="container">
+                <h2>最新洞察與里程碑</h2>
+                <div class="records-grid">
+                    <div class="record-card">
+                        <h4>2024 前端開發趨勢展望：AI 與 Web Components 的整合</h4>
+                        <p>深入探討 AI 技術如何改變前端開發格局，以及 Web Components 的未來應用。</p>
+                        <span><i class="fas fa-calendar-alt"></i> 2024年5月15日</span>
+                        <a href="#" class="read-more">閱讀更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="record-card">
+                        <h4>榮獲 [獎項名稱] - [項目名稱] 最佳技術創新獎</h4>
+                        <p>表彰在 [項目名稱] 中對於 [技術領域] 的突出貢獻。</p>
+                        <span><i class="fas fa-trophy"></i> 2023年12月</span>
+                    </div>
+                    <div class="record-card">
+                        <h4>我的開源專案：[專案名稱] 突破 1000 Stars！</h4>
+                        <p>一個關於 [專案名稱] 如何幫助開發者 [功能]，並感謝所有貢獻者。</p>
+                        <span><i class="fab fa-github"></i> 2024年4月10日</span>
+                        <a href="#" class="read-more">查看專案 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding bg-dark-blue">
+            <div class="container">
+                <h2>與我聯繫</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+                        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+                        <p><i class="fas fa-phone"></i> 電話: +886-9XX-XXXXXX</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="您的姓名" required>
+                        <input type="email" placeholder="您的電子郵件" required>
+                        <textarea placeholder="您的訊息" rows="5" required></textarea>
+                        <button type="submit" class="btn primary-btn">發送訊息</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 [你的名字]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
